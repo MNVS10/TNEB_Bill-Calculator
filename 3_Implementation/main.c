@@ -38,10 +38,10 @@ int main(){
     if(tm==1){
          printf("Consumer Number:%d\nConsumer type:Domestic User\nUsage:%d\nTotal Bill Amount=%d\nPlease pay the amount before due date\n",cno,usage,cost);
     }
-    else if(tm==3){
-        printf("Consumer Number:%d\nConsumer type:Industrial\Commercial User\nUsage:%d\nTotal Bill Amount=%d\nPlease pay the amount before due date\n",cno,usage,cost);
-    }
     else if(tm==2){
+        printf("Consumer Number:%d\nConsumer type:Commercial User\nUsage:%d\nTotal Bill Amount=%d\nPlease pay the amount before due date\n",cno,usage,cost);
+    }
+    else if(tm==3){
         printf("Consumer Number:%d\nConsumer type:Agricultural User\nUsage:%d\nTotal Bill Amount=%d\nPlease pay the amount before due date\n",cno,usage,cost);
     }
     //printf("Consumer Number:%d\nUsage:%d\nTotal Bill Amount=%d\nPlease pay the amount before due date\n",cno,usage,cost);
